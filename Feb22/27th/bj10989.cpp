@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void solution()
+int main()
 {
     long long N,i;
     short data,max,j;
@@ -26,9 +26,5 @@ void solution()
             N--;
         }
     }
-}
-int main()
-{
-    solution();
     return 0;
 }
