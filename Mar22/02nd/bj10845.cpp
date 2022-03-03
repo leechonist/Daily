@@ -25,9 +25,12 @@ int main()
         }
         else if(str=="pop")
         {
-            data = Q.front();
-            Q.pop();
-            cout<<data<<'\n';
+            if(Q.empty()) cout<<"-1\n";
+            else{
+                data = Q.front();
+                Q.pop();
+                cout<<data<<'\n';
+            }
         }
         else if(str=="front")
         {
